@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UW8">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="25sp"
+        android:id="@+id/res" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res"
+        android:text="輸入溫度" />
+
+    <EditText
+        android:id="@+id/etem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_below="@+id/res"
+        android:ems="5"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/etem"
+        android:layout_below="@+id/res"
+        android:id="@+id/temper"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="攝氏"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/rf"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:checked="true"
+            android:text="華氏"
+            android:buttonTint="@color/top"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res"
+        android:layout_toRightOf="@+id/temper"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="訂購" />
+
+    <CheckBox
+        android:id="@+id/cham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temper"
+        android:layout_weight="1"
+        android:text="漢堡"
+        android:buttonTint="@color/top"/>
+
+    <CheckBox
+        android:id="@+id/cfrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temper"
+        android:layout_toRightOf="@+id/cham"
+        android:text="薯條"
+        android:buttonTint="@color/top"/>
+
+    <CheckBox
+        android:id="@+id/ccoke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cham"
+        android:text="可樂"
+        android:buttonTint="@color/top"/>
+
+    <CheckBox
+        android:id="@+id/ccorn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cham"
+        android:layout_toRightOf="@id/ccoke"
+        android:text="玉米湯"
+        android:buttonTint="@color/top"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="UW1">Week 1</string>
+    <string name="UW2">Week 2</string>
+    <string name="UW4">Week 4</string>
+    <string name="UW5">Week 5</string>
+    <string name="UW6">Week 6</string>
+    <string name="UW7">Week 7</string>
+    <string name="UW8">Week 8</string>
+    <string name="UW9">Week 9</string>
+    <string name="UW11">Week 11</string>
+    <string name="UW12">Week 12</string>
+    <string name="UW13">Week 13</string>
+    <string name="UW14">Week 14</string>
+    <string name="UW15">Week 15</string>
+    <string name="UW16">Week 16</string>
+    <string name="UW17">Week 17</string>
+    <!--w1-->
+    <string name="hello_night">Hello Night!</string>
+    <!--w2-->
+    <string name="disp">Hello World!</string>
+    <string name="name">Name:</string>
+    <string name="hint_name">your name:</string>
+    <string name="email">E_mail:</string>
+    <string name="hint_email">your E_mail:</string>
+    <string name="phone">Phone:</string>
+    <string name="hint_phone">your Phone:</string>
+    <string name="bp">DISPLAY</string>
+    <string name="bc">CLEAR</string>
+    <string name="be">EXIT</string>
+    <!--w4-->
+    <string name="enlarge">放大</string>
+    <string name="shrink">縮水</string>
+    <string name="recover">恢復</string>
+    <string name="exit">離開</string>
+    <string name="content">內容</string>
+    <string name="change">變色</string>
+    <string name="RED">紅色：</string>
+    <string name="GREEN">綠色：</string>
+    <string name="BLUE">藍色：</string>
+    <!--w7-->
+    <string name="C">\u2103</string>
+    <string name="F">\u2109</string>
+    <!--w8-->
+    <string name="CC">\u2103</string>
+    <string name="FF">\u2109</string>
+    <!--w14.w15-->
+    <string-array name="sea">
+        <item>春</item>
+        <item>夏</item>
+        <item>秋</item>
+        <item>冬</item>
+    </string-array>
+</resources>

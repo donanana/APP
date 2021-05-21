@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/one" android:title="複製到第1個位置"></item>
+    <item android:id="@+id/two" android:title="複製到第2個位置"></item>
+    <item android:id="@+id/cls" android:title="清除內容"></item>
+</menu>

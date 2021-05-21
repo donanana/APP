@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".W13"></activity>
+        <activity android:name=".W11" />
+        <activity android:name=".W10" />
+        <activity android:name=".W8" />
+        <activity android:name=".W6_2" />
+        <activity android:name=".W6" />
+        <activity android:name=".W5_2" />
+        <activity android:name=".W5" />
+        <activity android:name=".W4" />
+        <activity android:name=".W3_3" />
+        <activity android:name=".W3_2" />
+        <activity android:name=".W3" />
+        <activity android:name=".W2" />
+        <activity android:name=".W1" />
+        <activity
+            android:name=".UW17"
+            android:label="@string/UW17" />
+        <activity
+            android:name=".UW16"
+            android:label="@string/UW16" />
+        <activity
+            android:name=".UW15"
+            android:label="@string/UW15" />
+        <activity
+            android:name=".UW14"
+            android:label="@string/UW14" />
+        <activity
+            android:name=".UW13"
+            android:label="@string/UW13" />
+        <activity
+            android:name=".UW12"
+            android:label="@string/UW15" />
+        <activity
+            android:name=".UW11"
+            android:label="@string/UW11" />
+        <activity
+            android:name=".UW9"
+            android:label="@string/UW9" />
+        <activity
+            android:name=".UW8"
+            android:label="@string/UW8" />
+        <activity
+            android:name=".UW7"
+            android:label="@string/UW7" />
+        <activity
+            android:name=".UW6"
+            android:label="@string/UW6" />
+        <activity
+            android:name=".UW5"
+            android:label="@string/UW5" />
+        <activity
+            android:name=".UW4"
+            android:label="@string/UW4" />
+        <activity
+            android:name=".UW2"
+            android:label="@string/UW2" />
+        <activity
+            android:name=".UW1"
+            android:label="@string/UW1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

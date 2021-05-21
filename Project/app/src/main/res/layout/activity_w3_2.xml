@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".W3_2">
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginVertical="20dp"
+        android:text="第二畫面" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_below="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跑到活動3"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_below="@+id/h1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回活動1"
+        android:layout_toRightOf="@+id/b2"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收資料："
+        android:layout_below="@+id/b2"/>
+</RelativeLayout>

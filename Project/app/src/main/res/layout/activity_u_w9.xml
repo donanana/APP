@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UW9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="點餐系統!"
+        />
+
+    <CheckBox
+        android:id="@+id/chH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:text="漢堡"
+        android:buttonTint="@color/top"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/chH"
+        android:id="@+id/rgH"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Hb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="大"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/Hm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/Hs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小"
+            android:buttonTint="@color/top"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chH"
+        android:text="薯條"
+        android:buttonTint="@color/top"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chH"
+        android:layout_toRightOf="@+id/chF"
+        android:id="@+id/rgF"
+        android:orientation="horizontal"
+        android:buttonTint="@color/top">
+
+        <RadioButton
+            android:id="@+id/Fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="大"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/Fm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/Fs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小"
+            android:buttonTint="@color/top"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/chC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chF"
+        android:text="可樂"
+        android:buttonTint="@color/top"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chF"
+        android:layout_toRightOf="@+id/chC"
+        android:id="@+id/rgC"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/Cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="大"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/Cm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/Cs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小"
+            android:buttonTint="@color/top"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chC"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="確定" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chC"
+        android:layout_toRightOf="@+id/button1"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="結束" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chC"
+        android:layout_toRightOf="@+id/button2"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="取消選擇" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:text=" " />
+
+
+</RelativeLayout>

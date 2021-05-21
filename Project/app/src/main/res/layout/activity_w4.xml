@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".W4">
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res"
+        android:text="打電話"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b4"
+        android:text="到某網址"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/b6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b5"
+        android:text="發簡訊"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b6"
+        android:text="地標地圖"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b7"
+        android:text="搜尋"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b8"
+        android:text="發ＥＭＡＩＬ"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"/>
+
+
+</RelativeLayout>

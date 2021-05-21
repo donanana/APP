@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UW11">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="點餐系統!" />
+
+    <CheckBox
+        android:id="@+id/chH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:text="漢堡" />
+
+    <ImageView
+        android:id="@+id/imH"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/chH"
+        app:srcCompat="@drawable/hamburger" />
+
+    <CheckBox
+        android:id="@+id/chF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/imH"
+        android:text="薯條" />
+
+    <ImageView
+        android:id="@+id/imF"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/chF"
+        app:srcCompat="@drawable/frenchfry" />
+
+    <CheckBox
+        android:id="@+id/chC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/imF"
+        android:text="可樂" />
+
+    <ImageView
+        android:id="@+id/imC"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv"
+        android:layout_toRightOf="@+id/chC"
+        app:srcCompat="@drawable/softdrink" />
+
+    <CheckBox
+        android:id="@+id/chS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imH"
+        android:text="玉米湯" />
+
+    <ImageView
+        android:id="@+id/imS"
+        android:layout_width="42dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imH"
+        android:layout_toRightOf="@+id/chS"
+        app:srcCompat="@drawable/soup" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imH"
+        android:layout_toRightOf="@+id/imS"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="訂餐" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imH"
+        android:layout_toRightOf="@+id/bt1"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="取消送餐" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imH"
+        android:layout_toRightOf="@+id/bt2"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="結束" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imS"
+        android:text="" />
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/res"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imHam"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/hamburger" />
+
+        <ImageView
+            android:id="@+id/imFre"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/frenchfry" />
+
+        <ImageView
+            android:id="@+id/imCoke"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/softdrink" />
+
+        <ImageView
+            android:id="@+id/imSoup"
+            android:layout_width="42dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            app:srcCompat="@drawable/soup" />
+
+    </LinearLayout>
+
+</RelativeLayout>

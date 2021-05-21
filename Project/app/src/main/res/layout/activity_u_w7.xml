@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UW7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="25sp"
+        android:id="@+id/res"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:layout_below="@+id/res"
+        android:inputType="textPersonName"
+        android:hint="輸入姓名"
+        android:text="" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rg"
+        android:layout_below="@+id/res"
+        android:layout_toRightOf="@id/edit1">
+
+        <RadioButton
+            android:id="@+id/rman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/rwoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="女"
+            android:buttonTint="@color/top"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rg"
+        android:layout_below="@+id/res"
+        android:background="@drawable/round"
+        android:layout_margin="5dp"
+        android:text="確定" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/button"
+        android:id="@+id/font">
+
+        <RadioButton
+            android:id="@+id/rbold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粗體"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/ritalic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="斜體"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/rboita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="粗斜體"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/rnomal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="正常"
+            android:buttonTint="@color/top"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/font"
+        android:text="輸入溫度" />
+
+    <EditText
+        android:id="@+id/etem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_below="@+id/font"
+        android:ems="5"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/etem"
+        android:layout_below="@+id/font"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="攝氏"
+            android:buttonTint="@color/top"/>
+
+        <RadioButton
+            android:id="@+id/rf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="華氏"
+            android:buttonTint="@color/top"/>
+    </RadioGroup>
+
+</RelativeLayout>

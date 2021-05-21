@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--w1-->
+    <string name="app_name">我的第一個應用程式</string>
+    <string name="hello_night">夜晚，你好!</string>
+    <!--W2-->
+    <string name="disp">哈囉，世界!</string>
+    <string name="name">名字:</string>
+    <string name="hint_name">你的名字:</string>
+    <string name="email">郵件:</string>
+    <string name="hint_email">你的郵件:</string>
+    <string name="phone">電話:</string>
+    <string name="hint_phone">你的電話:</string>
+    <string name="bp">陳列</string>
+    <string name="bc">清除</string>
+    <string name="be">離開</string>
+</resources>
